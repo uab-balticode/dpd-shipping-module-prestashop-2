@@ -1,0 +1,13 @@
+.dualcurrency_logo_img{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.dualcurrency_inline {
+    display: inline;
+}
+.dualcurrency_grey {
+    color:grey;
+}
+.hide {
+    display: none;
+}

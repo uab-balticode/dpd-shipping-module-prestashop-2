@@ -1,0 +1,200 @@
+.bold {
+    font-weight: bold;
+}
+.allcaps {
+    text-transform: uppercase;
+}
+.center {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.top {
+    vertical-align: top;
+}
+.bottom {
+    vertical-align: bottom;
+}
+.line_h10 {
+    height: 6px;
+    line-height: 6px;
+}
+.line_h15 {
+    height: 15px;
+    line-height: 15px;
+}
+.line_h1 {
+    height: 1px;
+    line-height: 1px;
+}
+.line_h20{
+    line-height: 20px;
+    height: 20px !important;
+}
+.text_conditions {
+    width: 440px;
+}
+.conditions_signature {
+    width: 80px;
+}
+.header_props {
+    font-size: 32px;
+}
+.logo {
+    text-align: center;
+    vertical-align: top;
+}
+/*.header_props .logo img {
+    width: 118px;
+    height: 85px;
+}*/
+img {
+    width: 118px;
+    /*height: 75px;*/
+}
+.props_label_vat_code,
+.label_company,
+.label_vat {
+    width: 150px;
+}
+.label_vat_code,
+.value_client_vat_code {
+    width: 100px;
+}
+.header_top .label_phone,
+.header_top .label_fax {
+    width: 100px;
+}
+.header_top .value_phone,
+.header_top .value_fax {
+    width: 200px;
+}
+.header {
+    font-size: 26px;
+}
+.label_manifest_nr {
+    font-size: 28px;
+    font-weight: bold;
+    width: 90px;
+}
+.value_manifest_nr {
+    width: 80px;
+}
+.label_client {
+    width: 80px;
+}
+.label_sphone,
+.value_client_phone {
+    width: 100px;
+}
+.line {
+    color: #CC0000;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+.line_w100 {
+    margin: 0px 20px;
+    width: 100px;
+}
+.line_w150 {
+    /*margin: 0px 20px;*/
+    width: 150px;
+}
+.line_w134 {
+    width: 125px;
+}
+.line_w5 {
+    width: 10px;
+}
+.line_h25{
+    line-height: 5px;
+    height: 5px !important;
+}
+.line_w100p {
+    width: 100%;
+}
+.red {
+    border-color: red;
+}
+.yellow {
+    border-color: yellow;
+}
+.signature .label {
+    font-size: 20px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.extra {
+    font-size: 20px;
+}
+.yellow {
+    color: yellow;
+}
+.checkbox {
+    display: inline-block;
+    margin-right:5px;
+    border: 2px solid #000;
+    width: 10px;
+    height: 10px;
+}
+.checkbox_field {
+    width: 15px;
+}
+.time_field {
+    width: 68px;
+}
+.time_input_dotted {
+    text-align: center;
+    border: 1px dotted #000;
+    width: 22px;
+    height: 10px;
+    margin: 0px;
+    border-style: dotted;
+}
+.time_input_middle_box {
+    border-right-width: 0px;
+    border-left-width: 0px; 
+}
+.label_load, .label_wait {
+    padding-left: 20px;
+    width: 150px;
+}
+.notification {
+    font-size: 16px;
+}
+.value_issn_nr {
+    border: 2px solid #000;
+    width: 517px;
+    height: 12px;
+    margin: 10px;
+}
+.orders {
+    font-size: 24px;
+}
+.label_order_nr {
+    width: 80px;
+}
+.label_order_type {
+    width: 70px;
+}
+.label_order_arrival {
+    width: 100px;
+}
+.label_order_phone {
+    width: 90px;
+}
+.label_order_weight {
+    width: 40px;
+}
+.label_order_number {
+    width: 100px;
+}
+.label_order_issn {
+    width: 30px;
+}
