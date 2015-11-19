@@ -2,8 +2,6 @@
 
 global $_MODULE;
 global $_MODULES;
-$_MODULE = array();
-$_MODULES = array();
 
 $_MODULE['<{dynamicparceldistribution}prestashop>configure_198b9cb2f0d52a4b22dd006d676d1cfc'] = 'Vispārīgas konfigurācijas detaļas'; //Global configuration details
 $_MODULE['<{dynamicparceldistribution}prestashop>configure_2faec1f9f8cc7f8f40d521c4dd574f49'] = 'Atļaut'; //Enable
