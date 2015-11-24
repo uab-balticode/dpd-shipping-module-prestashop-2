@@ -74,7 +74,7 @@ class DynamicParcelDistribution extends CarrierModule
     public function __construct()
     {
         $this->name = 'dynamicparceldistribution';
-        $this->version = '2.0.0';
+        $this->version = '2.0.1';
         $this->tab = 'shipping_logistics';
         $this->author = 'Balticode.com';
         $this->limited_countries = array('lv', 'lt');
@@ -426,7 +426,7 @@ class DynamicParcelDistribution extends CarrierModule
         $controllerName = 'AdminCallcarrier';
         $this->context->smarty->assign(
             array(
-                'token' => Tools::getAdminToken($controllerName.(int)Tab::getIdFromClassName($controllerName).(int)$this->context->employee->id),
+                'boxToken' => Tools::getAdminToken($controllerName.(int)Tab::getIdFromClassName($controllerName).(int)$this->context->employee->id),
             )
         );
 

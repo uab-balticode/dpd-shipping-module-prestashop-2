@@ -54,16 +54,15 @@ class AdminCallcarrierController extends ModuleAdminController
             'senderCity' => Configuration::get(DynamicParcelDistribution::CONST_PREFIX.'PICKUP_ADDRESS_CITY'),
             'senderContact' => Configuration::get(DynamicParcelDistribution::CONST_PREFIX.'PICKUP_ADDRESS_NAME'),
             'senderPhone' => Configuration::get(DynamicParcelDistribution::CONST_PREFIX.'PICKUP_ADDRESS_PHONE'),
-            'action' => 'dpdis/pickupOrdersSave',
             'parcelsCount' => Tools::getValue('Po_parcel_qty'),
             'palletsCount' => Tools::getValue('Po_pallet_qty'),
             'nonStandard' => Tools::getValue('Po_remark'),
         );
         $responce = $api->postData($parameters);
-        if ($responce == 'DONE') {
+        if (strip_tags($responce) == 'DONE') {
             $this->context->cookie->__set('redirect_success', Tools::displayError($this->l('Call courier success')));
         } else {
-            $this->context->cookie->__set('redirect_errors', Tools::displayError($this->l('Call courier error: '.$responce)));
+            $this->context->cookie->__set('redirect_errors', Tools::displayError($this->l('Call courier error: '.strip_tags($responce))));
         }
         Tools::redirectAdmin('?controller=AdminOrders&token='.Tools::getValue('parentToken'));
     }

@@ -21,7 +21,7 @@
  *  @license   http://www.gnu.org/licenses/gpl-3.0.txt  GPLv3
 *}
 <div style="display:none" id="call_dpd_carrier_popup">
-    <form action="?controller=AdminCallcarrier&token={$token|escape:'htmlall':'UTF-8'}" method="POST">
+    <form action="?controller=AdminCallcarrier&token={$boxToken|escape:'htmlall':'UTF-8'}" method="POST">
     
         <div class="shipment_info">
             <label for="Po_parcel_qty"><input type="text" name="Po_parcel_qty" id="Po_parcel_qty" value="0"
