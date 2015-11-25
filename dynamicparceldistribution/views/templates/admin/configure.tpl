@@ -60,6 +60,7 @@
                 <label for="api_url">{l s='DPD Api URL' mod='dynamicparceldistribution'} :</label>
                 <div class="margin-form">
                     <input type="text" name="api_url" value="{$api_url|escape:'htmlall':'UTF-8'}"/>
+                    <comment><b>Live:</b> https://weblabel.dpd.lt/parcel_interface/</comment>
                 </div>
                 <label for="pickup_address_name">{l s='Pickup address name' mod='dynamicparceldistribution'} :</label>
                 <div class="margin-form">
