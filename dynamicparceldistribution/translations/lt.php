@@ -48,7 +48,7 @@ $_MODULE['<{dynamicparceldistribution}prestashop>configure_2a08612b46f00683aabf0
 $_MODULE['<{dynamicparceldistribution}prestashop>configure_e1e4c8c9ccd9fc39c391da4bcd093fb2'] = 'Atskiriant'; //Block
 $_MODULE['<{dynamicparceldistribution}prestashop>configure_880452a8cf98bdcb0c8428732fa9c05c'] = 'Terminalų nustatymai'; //Pickup configuration details
 $_MODULE['<{dynamicparceldistribution}prestashop>configure_eacecf36901d16581daf2b8e12940a68'] = 'Nemokamai nuo'; //Free from
-$_MODULE['<{dynamicparceldistribution}prestashop>configure_ce6af748515f14dfe8c723fc07ba3c94'] = 'Rodyti paštomatus sutrumpintai'; //Show long office names
+$_MODULE['<{dynamicparceldistribution}prestashop>configure_ce6af748515f14dfe8c723fc07ba3c94'] = 'Rodyti paštomatu adresus'; //Show long office names
 $_MODULE['<{dynamicparceldistribution}prestashop>configure_4476349eed257b6bdf22388c5188c7c5'] = 'Miesto prioritetas'; //City priority
 $_MODULE['<{dynamicparceldistribution}prestashop>configure_b17f3f4dcf653a5776792498a9b44d6a'] = 'Išsaugoti'; //Update settings
 $_MODULE['<{dynamicparceldistribution}prestashop>configure_526d688f37a86d3c3f27d0c5016eb71d'] = 'Atstatyti'; //Reset

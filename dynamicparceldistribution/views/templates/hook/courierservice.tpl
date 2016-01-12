@@ -22,7 +22,7 @@
 *}
 <div id="dynamicparceldistribution_courierservice" class="dynamicparceldistribution_options">
     <script src="{$modules_dir|escape:'htmlall':'UTF-8'}dynamicparceldistribution/views/js/script.js" type="text/javascript"></script>
-    <h3>{l s='Choose a shipping option for this shipping method: %s' mod='dynamicparceldistribution' sprintf=$carrier_name|escape:'htmlall':'UTF-8'}</h3>
+    <h3>{l s='Choose a shipping option for this shipping method: %s' mod='dynamicparceldistribution' sprintf=$carrier_name|escape:'html':'UTF-8'}</h3>
     <div class="delivery_options">
         <div class="delivery_option">
             <select name="dpd_delivery_strip" class="time-strip required-entry" onchange="setDeliveryOptions('{$delivery_option|escape:'htmlall':'UTF-8'}','{$id_carrier|escape:'htmlall':'UTF-8'}',jQuery(this).val(), jQuery.trim(jQuery(this).find('option:selected').text()));">

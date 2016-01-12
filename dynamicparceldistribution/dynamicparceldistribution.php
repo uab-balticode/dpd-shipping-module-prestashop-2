@@ -74,7 +74,7 @@ class DynamicParcelDistribution extends CarrierModule
     public function __construct()
     {
         $this->name = 'dynamicparceldistribution';
-        $this->version = '2.0.1';
+        $this->version = '2.0.2';
         $this->tab = 'shipping_logistics';
         $this->author = 'Balticode.com';
         $this->limited_countries = array('lv', 'lt');
@@ -466,7 +466,7 @@ class DynamicParcelDistribution extends CarrierModule
 
         if ($carrierType == 'carrier') {
             if ($this->getPriceCalculation($carrierType) === '0') {//Price is calculation prestaShop?
-                return $this->systemPriceCalculate($this->id_carrier, $cartObject->id_shop, $this->context->country->id_zone);
+                return $this->systemPriceCalculate($this->id_carrier, $cartObject->id, $this->context->country->id_zone);
             } else {
                 return BalticodeDpdCarrierCourier::getOrderShippingCost(
                     $cartObject,
@@ -1037,7 +1037,7 @@ class DynamicParcelDistribution extends CarrierModule
 
         if ($carrier_id == Configuration::get('COURIERSERVICE_CARRIER_ID')) {
             if (Configuration::get(self::CONST_PREFIX.'SHOW_DELIVERY_TIME')) {
-                $this->getDeliveryTimeAvailable($params['address']->city); //Leave ony available times
+                $this->getDeliveryTimeAvailable($params['address']->city); //Leave only available times
                 if (empty(self::$delivery_time)) {//Last check for how much available
                     return '';
                 }
